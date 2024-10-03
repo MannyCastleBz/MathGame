@@ -30,7 +30,7 @@ generateNumbers();
 const interval = setInterval(() => {
     timer++;
     document.getElementById("timer").textContent = timer + " seconds";
-    if (timer >= 60) {
+    if (timer >= 120) {
         clearInterval(interval);
         document.getElementById("feedback").textContent = "Time's up! Game over.";
         document.getElementById("submit-btn").disabled = true;
