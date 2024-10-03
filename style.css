@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#user-answer {
+    width: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#level {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #00698f;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+}
